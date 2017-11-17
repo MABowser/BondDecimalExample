@@ -1,0 +1,16 @@
+﻿import "bond.bond"
+import "SecondType.bond"
+import "BxTypes.bond"
+
+namespace BondExampleB.Global.SecondType.SecondTypeA
+
+using decimal = blob;
+using TimeStamp = string;
+
+struct SecondTypeA : BondExampleB.Global.SecondType.SecondType
+{
+  0: int32 id;
+  1: string name;
+  2: decimal foo;
+  3: TimeStamp bar;
+}

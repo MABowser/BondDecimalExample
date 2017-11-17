@@ -1,0 +1,8 @@
+#Ran codegen on the following files:
+Schemas\bond.bond
+Schemas\bond_const.bond
+Schemas\SecondTypeA.bond
+Schemas\SecondType.bond
+Schemas\Payload.bond
+Schemas\Event.bond
+Schemas\BxTypes.bond

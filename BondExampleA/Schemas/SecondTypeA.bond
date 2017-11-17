@@ -1,0 +1,13 @@
+﻿import "bond.bond"
+import "SecondType.bond"
+import "BxTypes.bond"
+
+namespace BondExampleA.Global
+
+struct SecondTypeA : SecondType
+{
+  0: int32 id;
+  1: string name;
+  2: decimal foo;
+  3: TimeStamp bar;
+}

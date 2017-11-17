@@ -1,0 +1,15 @@
+﻿import "bond.bond"
+
+namespace BondExampleA.Global
+
+enum SecondTypeVersion
+{
+  SecondTypeA,
+  SecondTypeB,
+  None
+}
+
+struct SecondType
+{
+  0: SecondTypeVersion SecondTypeVersion = None;
+}

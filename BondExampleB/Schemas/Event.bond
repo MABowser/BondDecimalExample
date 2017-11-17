@@ -1,0 +1,10 @@
+﻿import "bond.bond"
+import "Payload.bond"
+
+namespace BondExampleB.Global
+
+struct Event
+{
+  0: string id;
+  1: bonded<Payload> Payload;
+}

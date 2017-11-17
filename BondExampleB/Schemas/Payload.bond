@@ -1,0 +1,26 @@
+﻿import "bond.bond"
+import "SecondType.bond"
+
+namespace BondExampleB.Global
+
+enum PayloadType
+{
+  FirstType,
+  SecondType,
+  None
+}
+
+struct Payload
+{
+  0: PayloadType PayloadType = None;
+}
+
+struct FirstTypePayload : Payload
+{
+  0: string name;
+}
+
+struct SecondTypePayload : Payload
+{
+  0: bonded<BondExampleB.Global.SecondType.SecondType> SecondType;
+}

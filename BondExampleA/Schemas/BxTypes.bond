@@ -1,0 +1,7 @@
+﻿import "bond.bond"
+
+// Generated C# code will be defined in this namespace.
+namespace BondExampleA.Global;
+
+using TimeStamp = string;
+using decimal = blob;
